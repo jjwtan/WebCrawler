@@ -1,0 +1,18 @@
+info:
+  app:
+    name: Crawler Application
+    description: This is a test application on web crawler
+    version: 1.0.0
+
+management:
+  port: 9000
+  security:
+    enabled: false
+  health:
+    defaults.enabled: false #enable or disables all auto_configured_healthindicators
+#    diskspace.enabled: false
+endpoints:
+  enabled: false  #disables all the other endpoints
+  health.enabled: true
+  info.enabled: true
+
